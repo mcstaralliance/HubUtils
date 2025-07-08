@@ -1,0 +1,5 @@
+name: HubUtils
+version: ${project.version}
+main: com.mcstaralliance.hubutils.HubUtils
+api-version: '1.20'
+author: liuhanwen, LDS_XiaoYe
