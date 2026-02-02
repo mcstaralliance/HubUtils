@@ -54,6 +54,7 @@ public class PlayerListener implements Listener {
         HubUtils.ghostTeam.addEntry(player.getName());
         if (!player.hasPermission("hubutils.invisibles"))
             player.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, 2147483647, 0, false, false));
+            player.addPotionEffect(new PotionEffect(PotionEffectType.SATURATION, 2147483647, 0, false, false));
         giveServerSelector(player);
         event.setJoinMessage(null);
     }
